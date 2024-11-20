@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+}
+
+a{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2rem;
+    width: 5%;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: grey;
+    background-color: black;
+}
