@@ -9,11 +9,11 @@ div{
 a{
     border: 2px solid black;
     padding: 5px;
-    margin: 2rem;
+    margin: 1rem;
     width: 5%;
     text-align: center;
     border-radius: 15px;
     text-decoration: none;
-    color: grey;
+    color: white;
     background-color: black;
 }

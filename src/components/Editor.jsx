@@ -8,12 +8,17 @@ import 'prismjs/components/prism-javascript.min.js'; // for javascript
 import 'prismjs/components/prism-jsx.min.js'; // for jsx 
 
 const SimpleCodeEditor = () => {
-  const [code, setCode] = useState(`export default function Write(){
-    return(
-        <p> Write Your Code</p>
-        <h1> CLick CTRL + 'A' to Clear the Code</h1>
-    )
-    }`); 
+  const [code, setCode] = useState(`import React from "react";
+    import ReactDOM from "react-dom";
+    
+    function App() {
+      return (
+        <h1>Hello world</h1>
+      );
+    }
+    
+    ReactDOM.render(<App /> 
+    document.getElementById("root"));`); 
   const textareaRef = useRef(null); 
   const preRef = useRef(null); // 
 

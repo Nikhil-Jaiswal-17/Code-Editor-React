@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <h1>react-simple-code-editor</h1>
       <p>A simple no-frills code editor with syntax highlighting.</p>
-      <a href="#">GITHUB</a>
+      <a href="https://github.com/Nikhil-Jaiswal-17/Code-Editor-React" target="blank">GITHUB</a>
       <SimpleCodeEditor />
     </div>
   );
